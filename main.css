@@ -138,7 +138,7 @@ main {
     padding-bottom: 0rem;
     text-align: start;
     max-width: 1440px;
-    margin: 2rem auto;
+    margin: 2rem 3rem;
   }
   .text {
     grid-row: 1 / span 1;
@@ -178,5 +178,12 @@ main {
 
   .group {
     margin-right: auto;
+  }
+}
+
+/**** LARGE LAYOUT ABOVE 1440px ****/
+@media screen and (min-width: 1441px) {
+  main {
+    margin: 2rem auto;
   }
 }
